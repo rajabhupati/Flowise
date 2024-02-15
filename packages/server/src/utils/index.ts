@@ -826,9 +826,10 @@ export const isFlowValidForStream = (reactFlowNodes: IReactFlowNode[], endingNod
             'chatAnthropic_LlamaIndex',
             'chatOllama',
             'awsChatBedrock',
-            'chatMistralAI'
+            'chatMistralAI',
+            'LlmGateway'
         ],
-        LLMs: ['azureOpenAI', 'openAI', 'ollama']
+        LLMs: ['azureOpenAI', 'openAI', 'ollama','LlmGateway']
     }
 
     let isChatOrLLMsExist = false
